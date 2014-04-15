@@ -1,5 +1,6 @@
 /// <reference path='../../jquery.d.ts'/>
 /// <reference path='../../mathjax.d.ts'/>
+/// <reference path='../TextExtractor.ts'/>
 
 module textract.test {
 	export class Main {
