@@ -27,7 +27,7 @@ module textract {
 			var srcText = node.textContent;
 			if (typeof srcText !== 'string') srcText = <string>node['innerText']; // IE8
 
-			var resultText = srcText.replace(/\s+/g, ' ').replace(/^\s+/, '').replace(/\s+$/, '');
+			var resultText = srcText.replace(/\s+/g, '');
 
 			if (resultText) {
 				var result = new NodeRange();
